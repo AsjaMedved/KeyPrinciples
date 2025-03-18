@@ -10,11 +10,11 @@ public class Main {
         post.birthday.year = 1999;
 
         post.name = "Иван";
-       post.passport = "4444 № 44444444";
-       post.patronymic = "Иванович";
-       post.phone = "(+7 (999) 999-99-99";
-     post.surname = "Иванов";
-     post.subscription = true;
+        post.passport = "4444 № 44444444";
+        post.patronymic = "Иванович";
+        post.phone = "(+7 (999) 999-99-99";
+        post.surname = "Иванов";
+        post.subscription = true;
 
         System.out.println(post.surname + " " + post.name + " " + post.patronymic);
         System.out.println(post.birthday.day + "." + post.birthday.month + "." + post.birthday.year);
