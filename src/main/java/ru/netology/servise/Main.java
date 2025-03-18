@@ -16,6 +16,7 @@ public class Main {
      post.surname = "Иванов";
      post.subscription = true;
 
-        System.out.println();
+        System.out.println(post.surname + " " + post.name + " " + post.patronymic);
+        System.out.println(post.birthday.day + "." + post.birthday.month + "." + post.birthday.year);
     }
 }
